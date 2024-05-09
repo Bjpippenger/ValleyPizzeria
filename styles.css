@@ -1,0 +1,124 @@
+hr {
+    margin: 2rem 0;
+}
+
+button {
+    background-color: #000000 !important;
+}
+
+.carousel-caption a {
+    background: maroon !important;
+    border: transparent !important;
+}
+
+.carousel-caption:hover a {
+    background: #030303 !important;
+    border: transparent !important;
+}
+
+/* Navbar section */
+.navbar-with-bg {
+    background-image: url('https://images.unsplash.com/photo-1630074067370-21b4062fb534?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    /* Additional background styles if needed */
+}
+
+.navbar-nav a {
+    color: rgb(126, 13, 13) !important;
+    font-size: large;
+}
+
+.navbar-nav a:hover {
+    color: #000000 !important;
+}
+
+/* Carousel section */
+.carImg {
+    height: 100vh;
+}
+
+/* Menu section */
+#menu {
+    margin-top: 5rem;
+}
+
+#menu h3 {
+    text-align: center;
+}
+
+.card {
+    border: transparent;
+    border-radius: 5px;
+    background: #fdfbfb;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+}
+
+.card-body a {
+    background: #000000 !important;
+    border: transparent !important;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Order section */
+.order-section {
+    margin-top: 7rem;
+}
+
+.pizzaBuilder {
+    margin: 0 13rem;
+    padding: 4rem;
+    background: #fdcdaf;
+}
+
+legend {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 3rem;
+}
+
+ .summary button, #btn1, #orderButton {
+    background: #000000 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.order-summary {
+    margin-bottom: 5rem;
+    padding: 10rem 0;
+    display: none;
+}
+
+
+
+/* Feedback section */
+.feedback {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.feedback-form {
+    padding: 2rem 4rem;
+    border: 1px solid black;
+    margin: 0 13rem;
+}
+
+.feedbackForm h3,
+h6 {
+    text-align: center;
+}
+
+/* Footer section */
+.footer {
+    background: #fdcdaf;
+    padding: 0.4rem 0;
+    text-align: center;
+}
+
+.icons i {
+    margin-right: 1rem;
+    cursor: pointer;
+}

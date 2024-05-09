@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valley pizzeria</title>
+    <!-- JS FILES -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- bootstrap js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- choosen js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.js"></script>
+    <!-- my js -->
+    <script src="./main.js"></script>
+    <!-- CSS FILES -->
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- chosen css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.css">
+    <!-- My css -->
+    <link href="./small.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- LANDING PAGE -->
+    <div id="home">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-with-bg">
+            <div class="container">
+                <span class="navbar-brand mb-0 h1">
+                    <i class='bx bx-home-heart bx-md bx-flashing'></i>
+                    <img src="images/valleypizzeria.jpg" alt="Valley Pizzeria Logo" class="img-fluid mx-2">
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/valleycombo.jpg" class="d-block w-100 carImg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>WORLD OF UNPARALLED FLAVOURS</h1>
+                        <h4>In Pizza We Crust</h4>
+                        <a href="#menu" class="btn btn-primary">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/valleyinside.jpg" class="d-block w-100 carImg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>TASTE AT AN UNBELIEVABLE PRICE</h1>
+                        <h4>Perfect has 7 letters. So does Pizzzza.</h4>
+                        <a href="#menu" class="btn btn-primary">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/valleygames.jpg" class="d-block w-100 carImg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>PARADISE ON YOUR PLATE</h1>
+                        <h4>We speak good food language.</h4>
+                        <a href="#menu" class="btn btn-primary">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/valleywings.jpg" class="d-block w-100 carImg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>PERFECT SLICE,PERFECT PRICE</h1>
+                        <h4>Try and stop at just one slice.</h4>
+                        <a href="#menu" class="btn btn-primary">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MENU SECTION -->
+    <div id="menu">
+        <div class="container">
+            <h3>Menu</h3>
+            <hr>
+            <div class="card-section mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleygarlicchicken.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic Chicken</h5>
+                        <p class="card-text">Garlic sauce Chicken Tomatoes Mushroom and Onions</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleycombo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo</h5>
+                        <p class="card-text">Signature Combination</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleygarden.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Valley Garden</h5>
+                        <p class="card-text">Vegetarians Rejoice!</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-section mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleybbq.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hot BBQ Chicken</h5>
+                        <p class="card-text">Grilled Chicken and our Hot BBQ Sauce</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleyalfredo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic Chicken Alfredo</h5>
+                        <p class="card-text">Grilled Chicken Green Onions Tomato and Garlic Alfredo Sauce</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleygarlicbread.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic Cheese Bread</h5>
+                        <p class="card-text">Cheesy Garlic Bread</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-section">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleycalzone.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Valley Calzone</h5>
+                        <p class="card-text">Try our delicious Calzones</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleyappetizers.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Appetizers</h5>
+                        <p class="card-text">Wings Side-Winder Fries Jalapeno Poppers </p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/valleysandwich.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Hot Sandwiches</h5>
+                        <p class="card-text">Try our delicious Hot Sandwiches</p>
+                        <a href="#order" class="btn btn-primary">ORDER</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- ORDER SECTION
+    <div id="order" class="order-section">
+        <div class="container">
+            <form class="pizzaBuilder">
+                <legend>Build Your Pizza Here</legend>
+                <div class="mb-3">
+                    <label class="form-label">Select your pizza flavor:</label>
+                    <select id="pizzaFlavour" class="form-select" aria-label="Default select example">
+                        <option value="bbqSteak">BBQ Steak</option>
+                        <option value="hawaiian">Hawaiian</option>
+                        <option value="tikka">Chicken Tikka</option>
+                        <option value="periperi">Peri-Peri Chicken</option>
+                        <option value="bbqChicken">BBQ Chicken</option>
+                        <option value="margherita">Margherita</option>
+                        <option value="veggie1">Veggie Deluxe</option>
+                        <option value="kachumbari">Kachumbari</option>
+                        <option value="veggie2">Veggie Extravaganza</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Pick your preferred Size:</label>
+                    <select id="size" class="form-select" aria-label="Default select example">
+                        <option value="Regular">Regular @ Ksh 500</option>
+                        <option value="Medium">Medium @ Ksh 850</option>
+                        <option value="Large">Large @ Ksh 1300</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Choose your favourite Crust:</label>
+                    <select id="crust" class="form-select" aria-label="Default select example">
+                        <option value="Thin">Thin Crust @ Ksh 100</option>
+                        <option value="Flat Bread">Flat Bread Crust @ Ksh 150</option>
+                        <option value="Thick">Thick Crust @ Ksh 200</option>
+                        <option value="Stuffed">Stuffed Crust @ Ksh 250</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Choose your favourite Toppings:</label>
+                    <select id="toppings" class="chzn-select form-select" multiple="true" name="faculty"
+                        aria-label="Default select example">
+                        <option value="Red-Onions">Red Onions @ Ksh 80</option>
+                        <option value="Sweet-Corn">Sweet Corn @ Ksh 150</option>
+                        <option value="Cheese">Cheese @ Ksh 200</option>
+                        <option value="Mushroom">Mushroom @ Ksh 250</option>
+                        <option value="Green-Pepper">Green Pepper @ Ksh 50</option>
+                        <option value="Pineapples">Pineapples @ Ksh 100</option>
+                        <option value="Tomatoes">Tomatoes @ Ksh 80</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Number of Pizza's:</label>
+                    <input type="number" id="Quantity" class="form-control" name="quantity" min="1"
+                        placeholder="Number of Pizza's">
+                </div>
+                <div class="mb-5">
+                    <label for="exampleFormControlInput1" class="form-label">Delivery Address</label>
+                    <input type="text" class="form-control message" id="exampleFormControlInput1"
+                        placeholder="@ Ksh 250. Only fill if you want us to do the delivery">
+                </div>
+                <a href="#orderSummary" id="orderButton" class="btn btn-primary">Checkout</a>
+            </form>
+        </div> -->
+
+        <!-- Order Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                    </div>
+                    <div class="modal-body">
+                        <P id="order-message">
+                        </P>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="orderSummary" class="order-summary">
+            <div class="container summary">
+                <h3>Your Order Summary</h3>
+                <p>Flavour choosen: <span class="pizzFlavour"></span></p>
+                <p>Pizza size: <span class="pizzaSize"></span></p>
+                <p>Crust choosen: <span class="crustChoosen"></span></p>
+                <p>Additional toppings: <span class="additionalToppings"></span></p>
+                <p>Number of pizzas: <span class="quantity"></span></p>
+                <p>Total amount: <span class="price"></span></p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="orderMessage()">
+                    Place Order
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- FEEDBACK SECTION -->
+    <div id="contact" class="feedback">
+        <div class="container feedbackForm">
+            <form>
+                <h3 class="mb-5">Get in Touch</h3>
+                <div class="feedback-form">
+                    <h6 class="mb-5">We love and appreciate to hear from our clients. Share any messeage or feedback you
+                        have with us.</h6>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
+                            placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop" onclick="alertMessage()">Send<i
+                            class='bx bx-right-arrow-alt'></i></button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Message Modal
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                </div>
+                <div class="modal-body">
+                    <P id="client-message">
+                    </P>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- FOOTER SECTION -->
+    <div class="footer">
+        <div class="container icons">
+            <i class='bx bxl-facebook bx-md bx-fade-left-hover'></i>
+            <i class='bx bxl-instagram bx-md bx-spin'></i>
+            <i class='bx bxl-twitter bx-md bx-fade-right-hover'></i>
+        </div>
+    </div>
+
+</body>
+
+</html>
